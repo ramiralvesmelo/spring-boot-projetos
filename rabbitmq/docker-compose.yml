@@ -25,8 +25,8 @@ services:
     image: rabbitmq:3-management
     container_name: rabbitmq_management
     ports: 
-    - "5672:5672"   #JMS Port
-    - "15672:15672" #Management Port - default user:pass = guest:guest
+    - 5672:5672   #JMS Port
+    - 15672:15672 #Management Port - default user:pass = guest:guest
     environment:
         RABBITMQ_DEFAULT_PASS: guest
         RABBITMQ_DEFAULT_USER: guest
