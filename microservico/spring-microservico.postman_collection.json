@@ -25,8 +25,8 @@
 							}
 						},
 						"url": {
-							"raw": "http://{{api.host}}:{{api.auth.port}}/api/gerarToken",
-							"protocol": "http",
+							"raw": "{{api.protocolo}}://{{api.host}}:{{api.auth.port}}/api/gerarToken",
+							"protocol": "{{api.protocolo}}",
 							"host": [
 								"{{api.host}}"
 							],
@@ -54,8 +54,8 @@
 							}
 						},
 						"url": {
-							"raw": "http://{{api.host}}:{{api.auth.port}}/api/gerarToken",
-							"protocol": "http",
+							"raw": "{{api.protocolo}}://{{api.host}}:{{api.auth.port}}/api/gerarToken",
+							"protocol": "{{api.protocolo}}",
 							"host": [
 								"{{api.host}}"
 							],
@@ -83,8 +83,8 @@
 							}
 						},
 						"url": {
-							"raw": "http://{{api.host}}:{{api.auth.port}}/api/gerarToken",
-							"protocol": "http",
+							"raw": "{{api.protocolo}}://{{api.host}}:{{api.auth.port}}/api/gerarToken",
+							"protocol": "{{api.protocolo}}",
 							"host": [
 								"{{api.host}}"
 							],
@@ -104,8 +104,49 @@
 			"name": "api.usuar",
 			"item": [
 				{
-					"name": "Admin",
+					"name": "Acesso Perfil Admin",
 					"item": [
+						{
+							"name": "Listar Usuarios",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c3VhcmlvLWFkbWluQGdtYWlsLmNvbSIsImlhdCI6MTcwOTc1Mzk2MywiZXhwIjoxNzA5NzU0NTYzfQ.9yJcrY2V1RnYNle6WysRU9uoTT_TuRNwDe3tEGZj7DE",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{api.protocolo}}://{{api.host}}:{{api.usuar.port}}/usuario",
+									"protocol": "{{api.protocolo}}",
+									"host": [
+										"{{api.host}}"
+									],
+									"port": "{{api.usuar.port}}",
+									"path": [
+										"usuario"
+									]
+								}
+							},
+							"response": []
+						},
 						{
 							"name": "Criar Usuario",
 							"request": {
@@ -114,7 +155,7 @@
 									"bearer": [
 										{
 											"key": "token",
-											"value": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c3VhcmlvLWFkbWluQGdtYWlsLmNvbSIsImlhdCI6MTcwOTc1Mzk2MywiZXhwIjoxNzA5NzU0NTYzfQ.9yJcrY2V1RnYNle6WysRU9uoTT_TuRNwDe3tEGZj7DE",
+											"value": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c3VhcmlvLWFkbWluQGdtYWlsLmNvbSIsImlhdCI6MTcwOTc1ODc1OSwiZXhwIjoxNzA5NzU5MzU5fQ.5nC2uuyHmfSyIKXci-mpmHUeAQuAZeM01cOf2UMBTDo",
 											"type": "string"
 										}
 									]
@@ -131,8 +172,8 @@
 									}
 								},
 								"url": {
-									"raw": "http://{{api.host}}:{{api.usuar.port}}/usuario",
-									"protocol": "http",
+									"raw": "{{api.protocolo}}://{{api.host}}:{{api.usuar.port}}/usuario",
+									"protocol": "{{api.protocolo}}",
 									"host": [
 										"{{api.host}}"
 									],
@@ -152,7 +193,7 @@
 									"bearer": [
 										{
 											"key": "token",
-											"value": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c3VhcmlvLWFkbWluQGdtYWlsLmNvbSIsImlhdCI6MTcwOTc1Mzg2MywiZXhwIjoxNzA5NzU0NDYzfQ.cp3J9cnXm4zmOzLxqeRxW1qWTSeKO8xGX9ncEgywcQc",
+											"value": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c3VhcmlvLWFkbWluQGdtYWlsLmNvbSIsImlhdCI6MTcwOTc1ODc1OSwiZXhwIjoxNzA5NzU5MzU5fQ.5nC2uuyHmfSyIKXci-mpmHUeAQuAZeM01cOf2UMBTDo",
 											"type": "string"
 										}
 									]
@@ -161,7 +202,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{    \r\n    \"name\": \"usuario-admin-alterar\",\r\n    \"email\": \"usuario-admin-alterar@gmail.com\"\r\n}",
+									"raw": "{    \r\n    \"name\": \"usuario-admin-alterar4\",\r\n    \"email\": \"usuario-admin-alterar4@gmail.com\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -169,8 +210,8 @@
 									}
 								},
 								"url": {
-									"raw": "http://{{api.host}}:{{api.usuar.port}}/usuario/4",
-									"protocol": "http",
+									"raw": "{{api.protocolo}}://{{api.host}}:{{api.usuar.port}}/usuario/4",
+									"protocol": "{{api.protocolo}}",
 									"host": [
 										"{{api.host}}"
 									],
@@ -191,7 +232,7 @@
 									"bearer": [
 										{
 											"key": "token",
-											"value": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c3VhcmlvLWFkbWluQGdtYWlsLmNvbSIsImlhdCI6MTcwOTc1Mzg2MywiZXhwIjoxNzA5NzU0NDYzfQ.cp3J9cnXm4zmOzLxqeRxW1qWTSeKO8xGX9ncEgywcQc",
+											"value": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c3VhcmlvLWFkbWluQGdtYWlsLmNvbSIsImlhdCI6MTcwOTc1ODc1OSwiZXhwIjoxNzA5NzU5MzU5fQ.5nC2uuyHmfSyIKXci-mpmHUeAQuAZeM01cOf2UMBTDo",
 											"type": "string"
 										}
 									]
@@ -208,8 +249,8 @@
 									}
 								},
 								"url": {
-									"raw": "http://{{api.host}}:{{api.usuar.port}}/usuario/4",
-									"protocol": "http",
+									"raw": "{{api.protocolo}}://{{api.host}}:{{api.usuar.port}}/usuario/4",
+									"protocol": "{{api.protocolo}}",
 									"host": [
 										"{{api.host}}"
 									],
@@ -225,10 +266,10 @@
 					]
 				},
 				{
-					"name": "User",
+					"name": "Acesso Perfil User",
 					"item": [
 						{
-							"name": "Lista Usuário Por Id",
+							"name": "Obter Usuario Por Id",
 							"request": {
 								"auth": {
 									"type": "bearer",
@@ -243,12 +284,12 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "http://{{api.host}}:{{api.usuar.port}}/usuario/1",
-									"protocol": "http",
+									"raw": "{{api.protocolo}}://{{api.host}}:{{api.usar.port}}/usuario/1",
+									"protocol": "{{api.protocolo}}",
 									"host": [
 										"{{api.host}}"
 									],
-									"port": "{{api.usuar.port}}",
+									"port": "{{api.usar.port}}",
 									"path": [
 										"usuario",
 										"1"
@@ -260,7 +301,7 @@
 					]
 				},
 				{
-					"name": "Guest",
+					"name": "Acesso Perfil Guest",
 					"item": [
 						{
 							"name": "Acesso Publico (identificado)",
@@ -278,14 +319,15 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "http://{{api.host}}:{{api.usuar.port}}/usuario",
-									"protocol": "http",
+									"raw": "{{api.protocolo}}://{{api.host}}:{{api.usuar.port}}/usuario/publico",
+									"protocol": "{{api.protocolo}}",
 									"host": [
 										"{{api.host}}"
 									],
 									"port": "{{api.usuar.port}}",
 									"path": [
-										"usuario"
+										"usuario",
+										"publico"
 									]
 								}
 							},
