@@ -1,7 +1,7 @@
 {
 	"info": {
-		"_postman_id": "f810fed9-b983-498c-afeb-da800e0c6968",
-		"name": "Sistema Spring Microservicos",
+		"_postman_id": "360c4222-2101-477d-8b28-f04fc2eefd21",
+		"name": "spring-microservico",
 		"description": "O projeto se resume em 2 APIs:\n\n\\- api-auth\n\nO usuário é autenticado e identificado com usuário/senha, em seguida recebe o token de acesso para seu perfil.",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "9663164"
