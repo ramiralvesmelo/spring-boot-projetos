@@ -91,5 +91,11 @@ http://localhost:8080
 ### Remover Credenciais
 
 ```sh
-git config --global --unset credential.helper
+$ git config --global --unset credential.helper
+```
+
+### Limpar Docker
+
+```sh
+$ docker system prune --all --force --volumes
 ```
