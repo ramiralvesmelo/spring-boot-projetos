@@ -19,8 +19,7 @@ Imagens utilizando as tecnologias listadas abaixo:
 - Docker v25.0.xxx
 - Docker Compose v2.24.xxx
 - Git v1.8.x.x
-- Ubuntu 18.04 LTS (Bionic Beaver)
-- Windows 10 Pro (19045.4046)
+- Windows 10 Pro (19045.4046) / Ubuntu 18.04 LTS (Bionic Beaver)
 
 ### Clonar Repositório
 
@@ -73,6 +72,13 @@ $ docker compose -f ./rabbitmq/docker-compose.yml up
 2. Postman
 
     Importar a coleção <a href="spring-boot-rabbitmq/spring-boot-rabbitmq.postman_collection.json">spring-boot-rabbitmq.postman_collection.json</a> no Postman e seguir as instruções descritas nele.
+
+    - UI Rabbit MQ
+
+        - http://127.0.0.1:15672/
+
+        - Usuario/Senha: guest/guest
+
 
 ### Apresentação Thymeleaf: 
 
