@@ -19,6 +19,8 @@ Imagens utilizando as tecnologias listadas abaixo:
 - Docker v25.0.xxx
 - Docker Compose v2.24.xxx
 - Git v1.8.x.x
+- Ubuntu 18.04 LTS (Bionic Beaver)
+- Windows 10 Pro (19045.4046)
 
 ### Clonar Repositório
 
