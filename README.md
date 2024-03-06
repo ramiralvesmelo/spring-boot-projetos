@@ -62,7 +62,7 @@ $ docker compose -f ./kafka/docker-compose.yml up
 
     - UI Kafka
 
-        http://127.0.0.1:15672/
+        http://127.0.0.1:8080/
 
 
 ### Mensageria com Rabbit MQ: 
