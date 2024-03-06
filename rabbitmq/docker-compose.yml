@@ -1,0 +1,32 @@
+version: '3'
+services:
+
+  rabbitmq-consumer:
+    image: ghcr.io/ramiralvesmelo/spring-boot-rabbitmq/rabbitmq-consumer:latest    
+    restart: always
+    environment:
+      - SPRING_RABBITMQ_HOST=rabbitmq      
+    ports:
+      - 8082:8082
+    depends_on:
+      - rabbitmq
+
+  rabbitmq-producer:
+    image: ghcr.io/ramiralvesmelo/spring-boot-rabbitmq/rabbitmq-producer:latest    
+    restart: always
+    environment:
+      - SPRING_RABBITMQ_HOST=rabbitmq      
+    ports:
+      - 8081:8081
+    depends_on:
+      - rabbitmq    
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: rabbitmq_management
+    ports: 
+    - "5672:5672"   #JMS Port
+    - "15672:15672" #Management Port - default user:pass = guest:guest
+    environment:
+        RABBITMQ_DEFAULT_PASS: guest
+        RABBITMQ_DEFAULT_USER: guest

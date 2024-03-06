@@ -1,0 +1,42 @@
+# Use root/example as user/password credentials
+version: '3.1'
+
+services:
+
+  api.auth:
+    container_name: api.auth
+    image: ghcr.io/ramiralvesmelo/spring-microservico/api.auth:latest
+    environment:
+      - spring.datasource.url=jdbc:mysql://mysqldb:3306/jwt?allowPublicKeyRetrieval=true
+    ports:
+      - 9090:9090
+    depends_on:
+      - mysqldb
+
+  api.usuar:
+    container_name: api.usuar
+    image: ghcr.io/ramiralvesmelo/spring-microservico/api.usuar:latest    
+    environment:
+      - spring.datasource.url=jdbc:mysql://mysqldb:3306/jwt?allowPublicKeyRetrieval=true
+    ports:
+      - 9091:9091
+    depends_on:
+      - mysqldb
+
+  mysqldb:
+    container_name: mysql
+    image: mysql
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    environment:      
+      MYSQL_DATABASE: jwt
+      MYSQL_USER: user
+      MYSQL_PASSWORD: user      
+      MYSQL_ROOT_PASSWORD: user
+    ports:
+      - 3306:3306
+    volumes:
+      - mysql:/var/lib/mysql
+
+volumes:
+  mysql:

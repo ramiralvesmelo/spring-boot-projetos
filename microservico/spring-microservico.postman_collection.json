@@ -1,0 +1,250 @@
+{
+	"info": {
+		"_postman_id": "f810fed9-b983-498c-afeb-da800e0c6968",
+		"name": "Sistema Spring Microservicos",
+		"description": "O projeto se resume em 2 APIs:\n\n\\- api-auth\n\nO usuário é autenticado e identificado com usuário/senha, em seguida recebe o token de acesso para seu perfil.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "9663164"
+	},
+	"item": [
+		{
+			"name": "api.auth",
+			"item": [
+				{
+					"name": "Login [GUEST]",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"usuario-guest@gmail.com\",\r\n    \"password\": \"123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://{{api.host}}:{{api.auth.port}}/api/gerarToken",
+							"protocol": "http",
+							"host": [
+								"{{api.host}}"
+							],
+							"port": "{{api.auth.port}}",
+							"path": [
+								"api",
+								"gerarToken"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Login [USER]",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"usuario-user@gmail.com\",\r\n    \"password\": \"123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://{{api.host}}:{{api.auth.port}}/api/gerarToken",
+							"protocol": "http",
+							"host": [
+								"{{api.host}}"
+							],
+							"port": "{{api.auth.port}}",
+							"path": [
+								"api",
+								"gerarToken"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Login [ADMIN]",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"usuario-admin@gmail.com\",\r\n    \"password\": \"123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://{{api.host}}:{{api.auth.port}}/api/gerarToken",
+							"protocol": "http",
+							"host": [
+								"{{api.host}}"
+							],
+							"port": "{{api.auth.port}}",
+							"path": [
+								"api",
+								"gerarToken"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"description": "API que efetua a autenticação via usuário/senha e retorno o token de acesso."
+		},
+		{
+			"name": "api.usuar",
+			"item": [
+				{
+					"name": "Criar Usuario",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c3VhcmlvLWFkbWluQGdtYWlsLmNvbSIsImlhdCI6MTcwOTY2MDYyOCwiZXhwIjoxNzA5NjYxMjI4fQ.kds5xgKMvs73yKCNwtKfU_3BpFtoJ5URLDtj0YzC2-w",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{    \r\n    \"name\":\"usuario-admin-teste\",\r\n    \"email\":\"usuario-admin-teste@gmail.com\",\r\n    \"password\":\"123\",\r\n    \"perfil\":{\r\n        \"value\":\"ADMIN\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://{{api.host}}:{{api.usuar.port}}/usuario/criarUsuario",
+							"protocol": "http",
+							"host": [
+								"{{api.host}}"
+							],
+							"port": "{{api.usuar.port}}",
+							"path": [
+								"usuario",
+								"criarUsuario"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Publico [GUEST, USER, ADMIN]",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c3VhcmlvLWd1ZXN0QGdtYWlsLmNvbSIsImlhdCI6MTcwOTU5ODY1NCwiZXhwIjoxNzA5NTk5MjU0fQ.M2197U1dj8L-e3K00SaJQ-1MBSunyGJJEP8TbPGtBOc",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://{{api.host}}:{{api.usuar.port}}/usuario",
+							"protocol": "http",
+							"host": [
+								"{{api.host}}"
+							],
+							"port": "{{api.usuar.port}}",
+							"path": [
+								"usuario"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Usuario ID [USER, ADMIN]",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c3VhcmlvLWd1ZXN0QGdtYWlsLmNvbSIsImlhdCI6MTcwOTU5ODY1NCwiZXhwIjoxNzA5NTk5MjU0fQ.M2197U1dj8L-e3K00SaJQ-1MBSunyGJJEP8TbPGtBOc",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://{{api.host}}:{{api.usuar.port}}/usuario/1",
+							"protocol": "http",
+							"host": [
+								"{{api.host}}"
+							],
+							"port": "{{api.usuar.port}}",
+							"path": [
+								"usuario",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Remover Usuario",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c3VhcmlvLWFkbWluQGdtYWlsLmNvbSIsImlhdCI6MTcwOTY2MTU0MCwiZXhwIjoxNzA5NjYyMTQwfQ.Ct1eS3RShoBmmZf1EGK4QFSaEgwpcZsVokPJc41-OHo",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{    \r\n    \"name\":\"usuario-admin-teste\",\r\n    \"email\":\"usuario-admin-teste@gmail.com\",\r\n    \"password\":\"123\",\r\n    \"perfis\":[\"ADMIN\"]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://{{api.host}}:{{api.usuar.port}}/usuario/criarUsuario",
+							"protocol": "http",
+							"host": [
+								"{{api.host}}"
+							],
+							"port": "{{api.usuar.port}}",
+							"path": [
+								"usuario",
+								"criarUsuario"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"description": "API de acesso autenticado via JWT."
+		}
+	]
+}
