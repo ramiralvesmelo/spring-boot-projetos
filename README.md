@@ -60,6 +60,10 @@ $ docker compose -f ./kafka/docker-compose.yml up
 
     Importar a coleção <a href="spring-boot-kafka/spring-boot-kafka.postman_collection.json">spring-boot-kafka.json</a> no Postman e seguir as instruções descritas nele.
 
+    - UI Kafka
+
+        http://127.0.0.1:15672/
+
 
 ### Mensageria com Rabbit MQ: 
 
@@ -73,11 +77,9 @@ $ docker compose -f ./rabbitmq/docker-compose.yml up
 
     Importar a coleção <a href="spring-boot-rabbitmq/spring-boot-rabbitmq.postman_collection.json">spring-boot-rabbitmq.postman_collection.json</a> no Postman e seguir as instruções descritas nele.
 
-    - UI Rabbit MQ
+    - UI Rabbit MQ (guest/guest)
 
-        - http://127.0.0.1:15672/
-
-        - Usuario/Senha: guest/guest
+        http://127.0.0.1:15672/ 
 
 
 ### Apresentação Thymeleaf: 
