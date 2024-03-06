@@ -87,3 +87,9 @@ $ docker compose -f ./thymeleaf/docker-compose.yml up
 ```sh
 http://localhost:8080
 ```
+
+### Remover Credenciais
+
+```sh
+git config --global --unset credential.helper
+```

@@ -2,7 +2,7 @@
 	"info": {
 		"_postman_id": "17dbebe4-dc33-41c2-8bb9-dfdf774d6d9f",
 		"name": "spring-boot-kafka",
-		"description": "O projeto se resume em 3 aplicações:\n\n- **producer**\n    \n\nAplicação responsável em enviar mensagens para a fila através de um serviço REST.\n\n- **consumer**\n    \n\nAplicação responsável em consumir as mensagens da fila.",
+		"description": "O projeto se resume em 3 aplicações:\n\n- **producer**\n    \n\nAplicação responsável em enviar mensagens para a fila através de um serviço REST.\n\n- **consumer**\n    \n\nAplicação responsável em consumir as mensagens da fila.\n\n- **kafka-ui**\n    \n\nAplicação responsável em monitorar o servidor de mensageria.\n\n[http://localhost:8080](http://localhost:8080)",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "9663164"
 	},
