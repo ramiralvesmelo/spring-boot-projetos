@@ -2,7 +2,6 @@
 
 Imagens utilizando as tecnologias listadas abaixo:
 
- - Spring Boot
  - Spring Security
  - JWT
  - BCrypt
