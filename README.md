@@ -84,8 +84,8 @@ Importar as collections para o Postman.
 
 ### Apache Kafka
 
-- http://127.0.0.1:8081/
-- http://127.0.0.1:8080/
+- http://127.0.0.1:8084/
+- http://127.0.0.1:8085/
 - <a href="spring-boot-kafka/spring-boot-kafka.postman_collection.json">spring-boot-kafka.json</a>
 
 | Aplicação         | Porta         | Descrição                                                 |
