@@ -99,6 +99,7 @@ $ docker compose -f ./openldap/docker-compose.yml up
 
 - http://127.0.0.1:8081/
 - http://127.0.0.1:8080/
+- <a href="spring-boot-kafka/spring-boot-kafka.postman_collection.json">spring-boot-kafka.json</a>
 
 | Aplicação         | Porta         | Descrição                                |
 | :-----------------|:-------------:| :----------------------                  |
@@ -112,6 +113,7 @@ $ docker compose -f ./openldap/docker-compose.yml up
 
  - http://127.0.0.1:8083/
  - http://127.0.0.1:15672/	
+ - <a href="spring-boot-rabbitmq/spring-boot-rabbitmq.postman_collection.json">spring-boot-rabbitmq.json</a>
 
 | Aplicação         | Porta         | Descrição                                |
 | :-----------------|:-------------:| :----------------------                  |
@@ -124,7 +126,8 @@ $ docker compose -f ./openldap/docker-compose.yml up
  - http://127.0.0.1:8087/
  - http://127.0.0.1:8088/
  - http://127.0.0.1:3306/
-
+ - <a href="spring-microservico/spring-microservico.postman_collection.json">spring-microservico.json</a>
+ 
 | Aplicação         | Porta         | Descrição                         |
 | :-----------------|:-------------:| :----------------------           |
 | api.auth          | 8087          | API de autenticação               |

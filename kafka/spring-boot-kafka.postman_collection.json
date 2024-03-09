@@ -1,32 +1,12 @@
 {
 	"info": {
-		"_postman_id": "17dbebe4-dc33-41c2-8bb9-dfdf774d6d9f",
+		"_postman_id": "fe5813b2-35ea-4de6-bbf2-cf42f0b492b0",
 		"name": "spring-boot-kafka",
 		"description": "O projeto se resume em 3 aplicações:\n\n- **producer**\n    \n\nAplicação responsável em enviar mensagens para a fila através de um serviço REST.\n\n- **consumer**\n    \n\nAplicação responsável em consumir as mensagens da fila.\n\n- **kafka-ui**\n    \n\nAplicação responsável em monitorar o servidor de mensageria.\n\n[http://localhost:8080](http://localhost:8080)",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "9663164"
 	},
 	"item": [
-		{
-			"name": "Envio Fila Kafka (lote)",
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "http://localhost:8081/kafka/solicitar-lote-pedido",
-					"protocol": "http",
-					"host": [
-						"localhost"
-					],
-					"port": "8081",
-					"path": [
-						"kafka",
-						"solicitar-lote-pedido"
-					]
-				}
-			},
-			"response": []
-		},
 		{
 			"name": "Envio Fila Kafka",
 			"request": {
@@ -42,15 +22,35 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8081/kafka/salvar-pedido",
+					"raw": "http://localhost:8085/kafka/salvar-pedido",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "8081",
+					"port": "8085",
 					"path": [
 						"kafka",
 						"salvar-pedido"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Envio Fila Kafka (lote)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8085/kafka/solicitar-lote-pedido",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8085",
+					"path": [
+						"kafka",
+						"solicitar-lote-pedido"
 					]
 				}
 			},

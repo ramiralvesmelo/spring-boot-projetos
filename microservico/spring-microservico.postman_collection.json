@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "360c4222-2101-477d-8b28-f04fc2eefd21",
+		"_postman_id": "c38d7c3f-424e-49b3-86de-1705f9d213ab",
 		"name": "spring-microservico",
 		"description": "O projeto se resume em 2 APIs:\n\n- **api-auth**\n    \n\nSistema responsável em autenticar e gerar o token de acesso com o perfil do usuário autenticado.\n\n- **api.usuar**\n    \n\nCom o token de acesso é feito os acesso para os 3 exemplos de endpoints",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
@@ -284,12 +284,12 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{api.protocolo}}://{{api.host}}:{{api.usar.port}}/usuario/1",
+									"raw": "{{api.protocolo}}://{{api.host}}:{{api.usuar.port}}/usuario/1",
 									"protocol": "{{api.protocolo}}",
 									"host": [
 										"{{api.host}}"
 									],
-									"port": "{{api.usar.port}}",
+									"port": "{{api.usuar.port}}",
 									"path": [
 										"usuario",
 										"1"
