@@ -74,6 +74,7 @@ Importar as collections para o Postman.
 ### Sprin Security + Thymeleaf + OpenLDAP
 
 - http://127.0.0.1:8081/
+- Apache Directory Studio
 
 | Aplicação     | Porta         | Descrição                 |
 | :------------ |:-------------:| :----------------------   |
@@ -87,13 +88,13 @@ Importar as collections para o Postman.
 - http://127.0.0.1:8080/
 - <a href="spring-boot-kafka/spring-boot-kafka.postman_collection.json">spring-boot-kafka.json</a>
 
-| Aplicação         | Porta         | Descrição                                |
-| :-----------------|:-------------:| :----------------------                  |
-| Apache ZooKeeper  | 22181         | Centralizador de chamados.               |
-| Apache Kafka-MB   | 9092, 9099    | Servidor Message Broker.                 |
-| kafka-ui          | 8084          | Interface de monitoração.                |
-| kafka-producer    | 8085          | Aplicação que envia mensagens ao broker. |
-| kafka-cosumer     | 8086          | Aplicação que recebe mensagens ao broker.|
+| Aplicação         | Porta         | Descrição                                                 |
+| :-----------------|:-------------:| :----------------------                                   |
+| Apache ZooKeeper  | 22181         | Centralizador de chamados.                                |
+| Apache Kafka-MB   | 9092, 9099    | Servidor Message Broker.                                  |
+| kafka-ui          | 8084          | Interface de monitoração.                                 |
+| kafka-producer    | 8085          | Aplicação responsável pelo envio da mensagem.             |
+| kafka-cosumer     | 8086          | Aplicação responsável pelo recebimento da mensagem.       |
 
 ### Rabbit MQ UI
 
@@ -101,11 +102,11 @@ Importar as collections para o Postman.
  - http://127.0.0.1:15672/	
  - <a href="spring-boot-rabbitmq/spring-boot-rabbitmq.postman_collection.json">spring-boot-rabbitmq.json</a>
 
-| Aplicação         | Porta         | Descrição                                |
-| :-----------------|:-------------:| :----------------------                  |
-| Rabbit MQ         | 5672, 15672   | Servidor Message Broker.                 |
-| rabbitmq-consumer | 8082          | Aplicação que envia mensagens ao broker. |
-| rabbitmq-producer | 8083          | Aplicação que recebe mensagens ao broker.|
+| Aplicação         | Porta         | Descrição                                                         |
+| :-----------------|:-------------:| :----------------------                                           |
+| Rabbit MQ         | 5672, 15672   | Servidor Message Broker.                                          |
+| rabbitmq-consumer | 8082          | Aplicação (publish) responsável pelo envio da mensagem.           |
+| rabbitmq-producer | 8083          | Aplicação (subscribe) responsável pelo recebimento da mensagem.   |
 
 ### Micro-Serviço
 
