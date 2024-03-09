@@ -1,4 +1,4 @@
-# Projetos Java
+# Spring Boot
 
 > [!NOTE]
 > A proposta deste repositório é fornecer com base na framework do Spring Boot exemplos práticos:
