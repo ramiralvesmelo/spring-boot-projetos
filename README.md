@@ -24,7 +24,7 @@
     Arquitetura em micro-serviços com a integração entre APIs com o uso de JWT (JSON Web Tokens).
 
 > [!IMPORTANT]
-> Necessário ter instalado na máquina as ferramentas abaixo:
+> Necessário ter instalado na máquina as ferramentas.
 
 - Docker v25.0.xxx
 - Docker Compose v2.24.xxx
@@ -82,7 +82,16 @@ $ docker compose -f ./openldap/docker-compose.yml up
 
 ## Acessos
 
-Os testes podem ser feitos pelo Postman e acompanhados nos endereços informados abaixo.
+> [!CAUTION]
+> Segue abaixo a relação de portas a serem utilizadas pelos projetos
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+Os testes podem ser feitos pelo Postman e acompanhados nos endereços informados.
 
 ### Kafka UI
 

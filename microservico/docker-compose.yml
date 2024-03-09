@@ -9,7 +9,7 @@ services:
     environment:
       - spring.datasource.url=jdbc:mysql://mysqldb:3306/jwt?allowPublicKeyRetrieval=true
     ports:
-      - 9090:9090
+      - 8087:9090
     depends_on:
       - mysqldb
 
@@ -19,7 +19,7 @@ services:
     environment:
       - spring.datasource.url=jdbc:mysql://mysqldb:3306/jwt?allowPublicKeyRetrieval=true
     ports:
-      - 9091:9091
+      - 8088:9091
     depends_on:
       - mysqldb
 
