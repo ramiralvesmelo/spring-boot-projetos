@@ -7,21 +7,31 @@
 
     Sistemas de comunicação assíncrona entre sistemas distribuidos utilizando o protocole AMQP.
 
+    <img src="/img/rabbit-mq-arquitetura-01.png" width="600">
+
 2. **Mensageria com Kafka**
 
     Sistemas de comunicação assíncrona entre sistemas distribuidos, utilizando tópicos (topics) e divididos em partições (partitions) .
+
+    <img src="/img/kafka-arquitetura-01.png" width="600">
 
 3. **Spring Security LDAP**
 
     Framework de autenticação e autorização via LDAP ( Apache OpenLdap ) e Bcrypt (Mysql).
 
+   <img src="/img/ldap-arquitetura-01.png" width="600">
+
 4. **Visualização**
 
     Engine Thymeleaf para desenvolvimento web baseado em XML, XHTML e HTML5..
 
+    <img src="/img/ldap-arquitetura-01.png" width="600">
+
 5. **Arquitetura Micro-Serviços**
 
     Arquitetura em micro-serviços com a integração entre APIs com o uso de JWT (JSON Web Tokens).
+
+    <img src="/img/micro-servicos-arquitetura-01.png" width="600">
 
 > [!IMPORTANT]
 > Necessário ter instalado na máquina as ferramentas.
