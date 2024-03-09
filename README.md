@@ -40,7 +40,7 @@
 
 ```sh
 $ git clone https://github.com/ramiralvesmelo/spring-boot-images.git
-cd spring-boot-images
+$ cd spring-boot-images
 ```
 
 2. Autenticar no Container Registry do GitHub
