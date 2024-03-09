@@ -74,6 +74,9 @@ Importar as collections para o Postman.
 ### Sprin Security + Thymeleaf + OpenLDAP
 
 - http://127.0.0.1:8081/
+
+    <img src="img/spring-boot-thymeleaf-01.png.png" width="1000">
+
 - Apache Directory Studio
 
 | Aplicação     | Porta         | Descrição                 |
