@@ -80,6 +80,21 @@ $ docker compose -f ./openldap/docker-compose.yml up
 
 ```
 
+## Teste (Acessos)
+
+### Kafka UI
+
+- http://127.0.0.1:8080/
+
+### Rabbit MQ UI
+
+- http://127.0.0.1:15672/ 
+
+
+### Spring Security LDAP
+
+ - http://127.0.0.1:8080/
+
 ## Limpar Ambiente
 
 Caso queira você pode remover as imagens e credencial da máquina executando os comandos.
