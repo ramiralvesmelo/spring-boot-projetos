@@ -1,27 +1,29 @@
 # Projetos Java
 
-A proposta deste repositório é fornecer com base na framework do Spring Boot exemplos práticos de:
+
 
 > [!NOTE]
-> Useful information that users should know, even when skimming content.
+> A proposta deste repositório é fornecer com base na framework do Spring Boot exemplos práticos de:
 
-> [!RABBITMQ]
-> Sistemas de comunicação assíncrona entre sistemas distribuidos.
+1. Rabbit MQ
 
-> [!Kafka]
-> Sistemas de comunicação assíncrona entre sistemas distribuidos.
+    Sistemas de comunicação assíncrona entre sistemas distribuidos.
 
-> [!Security_LDAP]
-> Framework de autenticação e autorização via LDAP ( Apache OpenLdap ) e Bcrypt.
+2. Kafka
 
-> [!Visualização]
-> Engine Thymeleaf para desenvolvimento web baseado em XML, XHTML e HTML5..
+    Sistemas de comunicação assíncrona entre sistemas distribuidos.
 
-> [!Mircro-Serviços]
-> Integração entre APIs com o uso de JWT (JSON Web Tokens) e ..
+3. Security LDAP
 
-> [!View]
-> Sistemas de comunicação assíncrona entre sistemas distribuidos.
+    Framework de autenticação e autorização via LDAP ( Apache OpenLdap ) e Bcrypt (Mysql).
+
+4. Visualização
+
+    Engine Thymeleaf para desenvolvimento web baseado em XML, XHTML e HTML5..
+
+5. Mircro-Serviços
+
+    Arquitetura de micro-serviços com a integração entre APIs com o uso de JWT (JSON Web Tokens).
 
 ### Requisitos Necessários:
 
