@@ -123,7 +123,7 @@ Importar as collections para o Postman.
 
 ## Iniciar Docker-Compose
 
-Para iniciar as imagens, é necessário estar no diretório raiz do projeto e executar os comandos informados.
+Para iniciar as imagens, é necessário estar no diretório raiz do projeto (/projetos-spring-boot) e executar os comandos informados.
 
 ```sh
 # Iniciar projeto Micro-Serviços
