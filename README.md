@@ -1,7 +1,5 @@
 # Projetos Java
 
-
-
 > [!NOTE]
 > A proposta deste repositório é fornecer com base na framework do Spring Boot exemplos práticos:
 
@@ -25,9 +23,12 @@
 
     Arquitetura de micro-serviços com a integração entre APIs com o uso de JWT (JSON Web Tokens).
 
-### Requisitos Necessários:
+> [!IMPORTANT]
+> Necessário ter instalado na máquina as ferramentas abaixo:
 
 - Docker v25.0.xxx
 - Docker Compose v2.24.xxx
 - Git v1.8.x.x
-- Windows 10 Pro (19045.4046) / Ubuntu 18.04 LTS (Bionic Beaver)
+- Sistema Windows 10 Pro (19045.4046) ou Ubuntu 18.04 LTS (Bionic Beaver)
+
+### Requisitos Necessários:
