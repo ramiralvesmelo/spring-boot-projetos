@@ -32,6 +32,7 @@
 - Sistema Windows 10 Pro (19045.4046) ou Ubuntu 18.04 LTS (Bionic Beaver)
 
 
+
 ## Iniciar Configuração
 
 1. Clonar o projeto
@@ -42,12 +43,15 @@ cd spring-boot-images
 ```
 
 2. Autenticar no Container Registry do GitHub
+
+> [!IMPORTANT]
+> A chave de acesso dever ser solicitada ao administrador da conta.
+
 ```sh
 $ docker login ghcr.io -u ramiralvesmelo 
 ```
 
 
 
-> [!IMPORTANT]
-> A chave de acesso dever ser solicitada ao administrador da conta.
+
 
