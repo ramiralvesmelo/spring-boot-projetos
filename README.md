@@ -148,6 +148,12 @@ Caso queira você pode remover as imagens e credencial da máquina executando os
 > Os comando irão remover **TODAS** as credências do GitHub e imagens existentes na sua máquina.
 
 ```sh
+# para as aplicações.
+$ ./kafka/docker-compose.yml down
+$ ./rabbitmq/docker-compose.yml down
+$ ./openldap/docker-compose.yml down
+$ ./microservico/docker-compose.yml down
+# limpar
 $ git config --global --unset credential.helper
 $ docker system prune --all --force --volumes
 ```
