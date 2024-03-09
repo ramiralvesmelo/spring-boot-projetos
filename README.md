@@ -73,7 +73,7 @@ Importar as collections para o Postman.
 
 ### Sprin Security + Thymeleaf + OpenLDAP
 
-- http://127.0.0.1:8081/
+- http://127.0.0.1:8081/ (guest/guest)
 
     <img src="img/spring-boot-thymeleaf-01.png" width="1000">
 
@@ -106,7 +106,7 @@ Importar as collections para o Postman.
 ### Pivotal RabbitMQ 
 
  - http://127.0.0.1:8083/
- - http://127.0.0.1:15672/	
+ - http://127.0.0.1:15672/	(guest/guest)
     
     <img src="/img/rabbitmq-01.png">
 
