@@ -33,7 +33,7 @@
 - S.O. Windows 10 Pro (19045.4046) ou Ubuntu 18.04 LTS (Bionic Beaver)
 
 > [!IMPORTANT]
-> Para iniciar todos os projetos o ideal é que o computador possua **3GB livre de memória**.
+> Para iniciar todos os projetos, é recomendável que o computador tenha pelo menos **3GB de memória disponível**.
 
 <img src="img/docker-01.png" width="800">
 
