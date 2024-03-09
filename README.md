@@ -119,10 +119,11 @@ $ docker compose -f ./openldap/docker-compose.yml up
 | rabbitmq-consumer | 8082          | Aplicação que envia mensagens ao broker. |
 | rabbitmq-producer | 8083          | Aplicação que recebe mensagens ao broker.|
 
-### Spring Security LDAP
+### Micro-Serviço
 
- - http://127.0.0.1:8080/
- - Apache Directory Studio
+ - http://127.0.0.1:8087/
+ - http://127.0.0.1:8088/
+ - http://127.0.0.1:3306/
 
 | Aplicação         | Porta         | Descrição                         |
 | :-----------------|:-------------:| :----------------------           |
