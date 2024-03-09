@@ -30,7 +30,7 @@
 - Docker Compose v2.24.xxx
 - Git v1.8.x.x
 - Postman
-- Sistema Windows 10 Pro (19045.4046) ou Ubuntu 18.04 LTS (Bionic Beaver)
+- S.O. Windows 10 Pro (19045.4046) ou Ubuntu 18.04 LTS (Bionic Beaver)
 
 ## Iniciar Configuração
 
