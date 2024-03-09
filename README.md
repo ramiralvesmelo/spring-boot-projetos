@@ -63,19 +63,20 @@ Baixar e importar as collections abaixo para Postman.
 
 ## Iniciar Docker-Compose
 
-Para iniciar as imagens é preciso estar na pasta raiz do projeto 
+Para iniciar as imagens é preciso estar na pasta raiz do projeto  e executar os comandos individualmente.
 
 ```sh
-
+# Iniciar projeto Micro-Serviços
 $ docker compose -f ./microservico/docker-compose.yml up
 
+# Iniciar projeto Kafka
 $ docker compose -f ./kafka/docker-compose.yml up
 
+# Iniciar projeto Rabbit MQ
 $ docker compose -f ./rabbitmq/docker-compose.yml up
 
-$ docker compose -f ./thymeleaf/docker-compose.yml up
-
-
+# Iniciar projeto OpenLdap
+$ docker compose -f ./openldap/docker-compose.yml up
 
 ```
 
@@ -84,7 +85,7 @@ $ docker compose -f ./thymeleaf/docker-compose.yml up
 Caso queira você pode remover as imagens e credencial da máquina executando os comandos.
 
 > [!CAUTION]
-> Os comando irão remover TODAS as credências e imagens existentes na sua máquina.
+> Os comando irão remover **TODAS** as credências do GitHub e imagens existentes na sua máquina.
 
 ```sh
 $ git config --global --unset credential.helper
