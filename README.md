@@ -87,13 +87,25 @@ $ docker compose -f ./openldap/docker-compose.yml up
 
 ### Sprin Security + Thymeleaf + OpenLDAP
 
+- http://localhost:8081/
+
 | Aplicação     | Porta         | Descrição                 |
 | :------------ |:-------------:| :----------------------   |
 | App-Web       | 8081          | Aplicação de front-end    |
-| Open LDAP     | 10389, 10636  | Aplicação de front-end    |
-| zebra stripes | are neat      | Aplicação de front-end    |
+| Open LDAP     | 10389, 10636  | Servidor LDAP             |
 
-Os testes podem ser feitos pelo Postman e acompanhados nos endereços informados.
+
+### Kafka
+
+- http://localhost:8081/
+
+| Aplicação         | Porta         | Descrição                                |
+| :-----------------|:-------------:| :----------------------                  |
+| Apache ZooKeeper  | 22181         | Centralizador de chamados.               |
+| Apache Kafka-MB   | 9092, 9099    | Servidor Broker.                         |
+| kafka-ui          | 8084          | Interface de Monitoração.                |
+| kafka-producer    | 8085          | Aplicação que envia mensagens ao broker. |
+| kafka-cosumer     | 8086          | Aplicação que recebe mensagens ao broker.|
 
 ### Kafka UI
 
