@@ -38,18 +38,18 @@
 <img src="img/docker-01.png" width="800">
 
 
-## Iniciar Configuração
+## Iniciar
 
 Para baixar as imagens do Docker, é necessário primeiro clonar o repositório e autenticar-se no GitHub Container Registry (GHCR) do GitHub.
 
-1. Clonar o projeto
+1. Clonar Projeto
 
 ```sh
 $ git clone https://github.com/ramiralvesmelo/spring-boot-images.git
 $ cd spring-boot-images
 ```
 
-2. Autenticar no Container Registry do GitHub
+2. Autenticar GHCR
 
 > [!IMPORTANT]
 > A chave de acesso dever ser solicitada ao administrador da conta.
