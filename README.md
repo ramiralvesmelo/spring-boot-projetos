@@ -31,4 +31,22 @@
 - Git v1.8.x.x
 - Sistema Windows 10 Pro (19045.4046) ou Ubuntu 18.04 LTS (Bionic Beaver)
 
-### Requisitos Necessários:
+
+> [!TIP]
+> Vamos iniciar os procedimentos para testar os projetos.
+
+1. Clonar o projeto
+
+```sh
+$ git clone https://github.com/ramiralvesmelo/spring-boot-images.git
+cd spring-boot-images
+```
+
+2. Autenticar no Container Registry do GitHub
+```sh
+$ docker login ghcr.io -u ramiralvesmelo 
+```
+
+> [!IMPORTANT]
+> A chave de acesso dever ser solicitada ao administrador da conta.
+
