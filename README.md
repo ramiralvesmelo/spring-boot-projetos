@@ -83,13 +83,13 @@ $ docker compose -f ./openldap/docker-compose.yml up
 ## Acessos
 
 > [!CAUTION]
-> Segue abaixo a relação de portas a serem utilizadas pelos projetos
+> Para que não haja conflitos de portas, segue abaixo a relação delas:
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| Aplicação     | Porta         | Descrição                 |
+| :------------ |:-------------:| :----------------------   |
+| App-Web       | 8081          | Aplicação de front-end    |
+| Open LDAP     | 10389, 10636  | Aplicação de front-end    |
+
 
 Os testes podem ser feitos pelo Postman e acompanhados nos endereços informados.
 
