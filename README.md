@@ -87,39 +87,48 @@ $ docker compose -f ./openldap/docker-compose.yml up
 
 ### Sprin Security + Thymeleaf + OpenLDAP
 
-- http://localhost:8081/
+- http://127.0.0.1:8081/
 
 | Aplicação     | Porta         | Descrição                 |
 | :------------ |:-------------:| :----------------------   |
-| App-Web       | 8081          | Aplicação de front-end    |
-| Open LDAP     | 10389, 10636  | Servidor LDAP             |
+| App-Web       | 8081          | Aplicação de front-end.   |
+| Open LDAP     | 10389, 10636  | Servidor LDAP.            |
 
 
 ### Kafka
 
-- http://localhost:8081/
+- http://127.0.0.1:8081/
+- http://127.0.0.1:8080/
 
 | Aplicação         | Porta         | Descrição                                |
 | :-----------------|:-------------:| :----------------------                  |
 | Apache ZooKeeper  | 22181         | Centralizador de chamados.               |
-| Apache Kafka-MB   | 9092, 9099    | Servidor Broker.                         |
-| kafka-ui          | 8084          | Interface de Monitoração.                |
+| Apache Kafka-MB   | 9092, 9099    | Servidor Message Broker.                 |
+| kafka-ui          | 8084          | Interface de monitoração.                |
 | kafka-producer    | 8085          | Aplicação que envia mensagens ao broker. |
 | kafka-cosumer     | 8086          | Aplicação que recebe mensagens ao broker.|
 
-### Kafka UI
-
-- http://127.0.0.1:8080/
-
 ### Rabbit MQ UI
 
-- http://127.0.0.1:15672/ 
+ - http://127.0.0.1:8083/
+ - http://127.0.0.1:15672/	
 
+| Aplicação         | Porta         | Descrição                                |
+| :-----------------|:-------------:| :----------------------                  |
+| Rabbit MQ         | 5672, 15672   | Servidor Message Broker.                 |
+| rabbitmq-consumer | 8082          | Aplicação que envia mensagens ao broker. |
+| rabbitmq-producer | 8083          | Aplicação que recebe mensagens ao broker.|
 
 ### Spring Security LDAP
 
  - http://127.0.0.1:8080/
  - Apache Directory Studio
+
+| Aplicação         | Porta         | Descrição                         |
+| :-----------------|:-------------:| :----------------------           |
+| api.auth          | 8087          | API de autenticação               |
+| api.usuar         | 8088          | API de acesso a entidade Usuário  |
+| MySQL             | 3306          | Banco de dados Relacional.        | 
 
 ## Limpar Ambiente
 
