@@ -32,6 +32,12 @@
 - Postman
 - S.O. Windows 10 Pro (19045.4046) ou Ubuntu 18.04 LTS (Bionic Beaver)
 
+> [!IMPORTANT]
+> Para iniciar todos os projetos o ideal é que o computador possua 3GB livre.
+
+<img src="img/docker-01.png" width="800">
+
+
 ## Iniciar Configuração
 
 É preciso baixar o repositório e se autenticar no GHCR do Github para que seja possível baixar as imagens do docker.
