@@ -2,7 +2,7 @@
 
 A proposta deste repositório é fornecer com base na framework do Spring Boot exemplos práticos de:
 
-> [!RabbitMQ]
+> [!RABBITMQ]
 > Sistemas de comunicação assíncrona entre sistemas distribuidos.
 
 > [!Kafka]
