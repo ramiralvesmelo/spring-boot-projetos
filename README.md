@@ -19,9 +19,9 @@
 
     Engine Thymeleaf para desenvolvimento web baseado em XML, XHTML e HTML5..
 
-5. **Sircro-Serviços**
+5. **Arquitetura Micro-Serviços**
 
-    Arquitetura de micro-serviços com a integração entre APIs com o uso de JWT (JSON Web Tokens).
+    Arquitetura em micro-serviços com a integração entre APIs com o uso de JWT (JSON Web Tokens).
 
 > [!IMPORTANT]
 > Necessário ter instalado na máquina as ferramentas abaixo:
