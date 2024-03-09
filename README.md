@@ -80,7 +80,9 @@ $ docker compose -f ./openldap/docker-compose.yml up
 
 ```
 
-## Teste (Acessos)
+## Acessos
+
+Os testes podem ser feitos pelo Postman e monitorado nos endereços.
 
 ### Kafka UI
 
@@ -94,6 +96,7 @@ $ docker compose -f ./openldap/docker-compose.yml up
 ### Spring Security LDAP
 
  - http://127.0.0.1:8080/
+ - Apache Directory Studio
 
 ## Limpar Ambiente
 
