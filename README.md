@@ -56,8 +56,37 @@ $ docker login ghcr.io -u ramiralvesmelo
 
 Baixar e importar as collections abaixo para Postman.
 
-- <a href="spring-boot-kafka/spring-boot-kafka.postman_collection.json">spring-boot-kafka.json</a>- 
+- <a href="spring-boot-kafka/spring-boot-kafka.postman_collection.json">spring-boot-kafka.json</a>
 - <a href="spring-microservico/spring-microservico.postman_collection.json">spring-microservico.postman_collection.json</a>
 - <a href="spring-boot-rabbitmq/spring-boot-rabbitmq.postman_collection.json">spring-boot-rabbitmq.postman_collection.json</a>
 
 
+## Iniciar Docker-Compose
+
+Para iniciar as imagens é preciso estar na pasta raiz do projeto 
+
+```sh
+
+$ docker compose -f ./microservico/docker-compose.yml up
+
+$ docker compose -f ./kafka/docker-compose.yml up
+
+$ docker compose -f ./rabbitmq/docker-compose.yml up
+
+$ docker compose -f ./thymeleaf/docker-compose.yml up
+
+
+
+```
+
+## Limpar Ambiente
+
+Caso queira você pode remover as imagens e credencial da máquina executando os comandos.
+
+> [!CAUTION]
+> Os comando irão remover TODAS as credências e imagens existentes na sua máquina.
+
+```sh
+$ git config --global --unset credential.helper
+$ docker system prune --all --force --volumes
+```
