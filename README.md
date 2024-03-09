@@ -31,9 +31,9 @@
 - Git v1.8.x.x
 - Sistema Windows 10 Pro (19045.4046) ou Ubuntu 18.04 LTS (Bionic Beaver)
 
-
-
 ## Iniciar Configuração
+
+É preciso baixar o repositório e se autenticar no GHCR do Github para que seja possível baixar as imagens do docker.
 
 1. Clonar o projeto
 
@@ -51,7 +51,11 @@ cd spring-boot-images
 $ docker login ghcr.io -u ramiralvesmelo 
 ```
 
+## Importar Collection 
 
+- <a href="spring-microservico/spring-microservico.postman_collection.json">spring-microservico.postman_collection.json</a>
+- <a href="spring-boot-kafka/spring-boot-kafka.postman_collection.json">spring-boot-kafka.json</a>
+- <a href="spring-boot-rabbitmq/spring-boot-rabbitmq.postman_collection.json">spring-boot-rabbitmq.postman_collection.json</a>
 
 
 
