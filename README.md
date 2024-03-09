@@ -69,7 +69,7 @@ Importar as collections para o Postman.
 ## Acessos
 
 > [!CAUTION]
-> Para que não haja conflitos de porta, segue abaixo relação de todas utilizadas nos projetos.
+> Para evitar conflitos de porta, a seguir está uma lista completa das portas utilizadas.
 
 ### Sprin Security + Thymeleaf + OpenLDAP
 
