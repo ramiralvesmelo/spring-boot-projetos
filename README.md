@@ -54,11 +54,10 @@ $ docker login ghcr.io -u ramiralvesmelo
 
 ## Importar Collection 
 
-Baixar e importar no Postman as collections abaixo:
+Baixar e importar as collections abaixo para Postman.
 
+- <a href="spring-boot-kafka/spring-boot-kafka.postman_collection.json">spring-boot-kafka.json</a>- 
 - <a href="spring-microservico/spring-microservico.postman_collection.json">spring-microservico.postman_collection.json</a>
-- <a href="spring-boot-kafka/spring-boot-kafka.postman_collection.json">spring-boot-kafka.json</a>
 - <a href="spring-boot-rabbitmq/spring-boot-rabbitmq.postman_collection.json">spring-boot-rabbitmq.postman_collection.json</a>
-
 
 
