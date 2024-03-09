@@ -56,9 +56,9 @@ $ docker login ghcr.io -u ramiralvesmelo
 
 Baixar e importar as collections abaixo para Postman.
 
-- <a href="spring-boot-kafka/spring-boot-kafka.postman_collection.json">spring-boot-kafka.json</a>
-- <a href="spring-microservico/spring-microservico.postman_collection.json">spring-microservico.postman_collection.json</a>
-- <a href="spring-boot-rabbitmq/spring-boot-rabbitmq.postman_collection.json">spring-boot-rabbitmq.postman_collection.json</a>
+- <a href="spring-boot-kafka/spring-boot-kafka.postman_collection.json">spring-boot-kafka</a>
+- <a href="spring-microservico/spring-microservico.postman_collection.json">spring-microservico.</a>
+- <a href="spring-boot-rabbitmq/spring-boot-rabbitmq.postman_collection.json">spring-boot-rabbitmq</a>
 
 
 ## Iniciar Docker-Compose
