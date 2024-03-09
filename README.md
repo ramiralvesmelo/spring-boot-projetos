@@ -33,14 +33,14 @@
 - S.O. Windows 10 Pro (19045.4046) ou Ubuntu 18.04 LTS (Bionic Beaver)
 
 > [!IMPORTANT]
-> Para iniciar todos os projetos o ideal é que o computador possua 3GB livre.
+> Para iniciar todos os projetos o ideal é que o computador possua **3GB livre de memória**.
 
 <img src="img/docker-01.png" width="800">
 
 
 ## Iniciar Configuração
 
-É preciso baixar o repositório e se autenticar no GHCR do Github para que seja possível baixar as imagens do docker.
+Para baixar as imagens do Docker, é necessário primeiro clonar o repositório e autenticar-se no GitHub Container Registry (GHCR) do GitHub.
 
 1. Clonar o projeto
 
@@ -65,26 +65,6 @@ Importar as collections para o Postman.
 - <a href="spring-boot-kafka/spring-boot-kafka.postman_collection.json">spring-boot-kafka.json</a>
 - <a href="spring-microservico/spring-microservico.postman_collection.json">spring-microservico.json</a>
 - <a href="spring-boot-rabbitmq/spring-boot-rabbitmq.postman_collection.json">spring-boot-rabbitmq.json</a>
-
-
-## Iniciar Docker-Compose
-
-Para iniciar as imagens é preciso estar na pasta raiz do projeto  e executar os comandos individualmente.
-
-```sh
-# Iniciar projeto Micro-Serviços
-$ docker compose -f ./microservico/docker-compose.yml up
-
-# Iniciar projeto Kafka
-$ docker compose -f ./kafka/docker-compose.yml up
-
-# Iniciar projeto Rabbit MQ
-$ docker compose -f ./rabbitmq/docker-compose.yml up
-
-# Iniciar projeto OpenLdap
-$ docker compose -f ./openldap/docker-compose.yml up
-
-```
 
 ## Acessos
 
@@ -139,6 +119,25 @@ $ docker compose -f ./openldap/docker-compose.yml up
 | api.auth          | 8087          | API de autenticação               |
 | api.usuar         | 8088          | API de acesso a entidade Usuário  |
 | MySQL             | 3306          | Banco de dados Relacional.        | 
+
+## Iniciar Docker-Compose
+
+Para iniciar as imagens, é necessário estar no diretório raiz do projeto e executar os comandos informados.
+
+```sh
+# Iniciar projeto Micro-Serviços
+$ docker compose -f ./microservico/docker-compose.yml up
+
+# Iniciar projeto Kafka
+$ docker compose -f ./kafka/docker-compose.yml up
+
+# Iniciar projeto Rabbit MQ
+$ docker compose -f ./rabbitmq/docker-compose.yml up
+
+# Iniciar projeto OpenLdap
+$ docker compose -f ./openldap/docker-compose.yml up
+
+```
 
 ## Limpar Ambiente
 
