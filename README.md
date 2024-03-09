@@ -2,6 +2,9 @@
 
 A proposta deste repositório é fornecer com base na framework do Spring Boot exemplos práticos de:
 
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
+
 > [!RABBITMQ]
 > Sistemas de comunicação assíncrona entre sistemas distribuidos.
 
