@@ -40,7 +40,7 @@
 
 ## Iniciar
 
-Para baixar as imagens do Docker, é necessário primeiro clonar o repositório e autenticar-se no GitHub Container Registry (GHCR) do GitHub.
+Para baixar as imagens docker, é necessário primeiro clonar o repositório e autenticar-se no GitHub Container Registry (GHCR).
 
 1. Clonar Projeto
 
