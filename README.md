@@ -82,7 +82,7 @@ Importar as collections para o Postman.
 | Open LDAP     | 10389, 10636  | Servidor LDAP.            |
 
 
-### Kafka
+### Apache Kafka
 
 - http://127.0.0.1:8081/
 - http://127.0.0.1:8080/
@@ -96,7 +96,7 @@ Importar as collections para o Postman.
 | kafka-producer    | 8085          | Aplicação responsável pelo envio da mensagem.             |
 | kafka-cosumer     | 8086          | Aplicação responsável pelo recebimento da mensagem.       |
 
-### Rabbit MQ UI
+### Pivotal RabbitMQ 
 
  - http://127.0.0.1:8083/
  - http://127.0.0.1:15672/	
