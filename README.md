@@ -2,23 +2,23 @@
 
 A proposta deste repositório é fornecer com base na framework do Spring Boot exemplos práticos de:
 
-- RabbitMQ e Kafka
+1. RabbitMQ e Kafka
 
     Sistemas de comunicação assíncrona entre sistemas distribuidos.
 
-- Arquitetura de Microserviços + JWT + Bcrypt
+2. Arquitetura de Microserviços + JWT + Bcrypt
 
     Uso de APIs que se integram com o uso de com JWT (JSON Web Tokens) e Bcrypt.
 
-- Spring Security + LDAP
+3. Spring Security + LDAP
 
     Framework de autenticação e autorização para aplicativos Java via LDAP ( Apache OpenLdap ).
 
-- JPA 
+4. JPA 
 
     API padrão do Java para mapeamento objeto-relacional.
 
-- Thymeleaf
+5. Thymeleaf
 
     Engine de modelo Java para desenvolvimento web baseado em XML, XHTML e HTML5.
 
