@@ -104,6 +104,9 @@ Importar as collections para o Postman.
 
  - http://127.0.0.1:8083/
  - http://127.0.0.1:15672/	
+    
+    <img src="/img/rabbitmq-01.png">
+
  - <a href="spring-boot-rabbitmq/spring-boot-rabbitmq.postman_collection.json">spring-boot-rabbitmq.json</a>
 
 | Aplicação         | Porta         | Descrição                                                         |
