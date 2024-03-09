@@ -82,7 +82,7 @@ $ docker compose -f ./openldap/docker-compose.yml up
 
 ## Acessos
 
-Os testes podem ser feitos pelo Postman e monitorado nos endereços.
+Os testes podem ser feitos pelo Postman e acompanhados nos endereços informados abaixo.
 
 ### Kafka UI
 
