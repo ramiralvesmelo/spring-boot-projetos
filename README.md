@@ -83,7 +83,7 @@ $ docker compose -f ./openldap/docker-compose.yml up
 ## Acessos
 
 > [!CAUTION]
-> Para que não haja conflitos de porta, segue abaixo relação de todas as portas utilizadas nos projetos.
+> Para que não haja conflitos de porta, segue abaixo relação de todas utilizadas nos projetos.
 
 ### Sprin Security + Thymeleaf + OpenLDAP
 
