@@ -29,6 +29,7 @@
 - Docker v25.0.xxx
 - Docker Compose v2.24.xxx
 - Git v1.8.x.x
+- Postman
 - Sistema Windows 10 Pro (19045.4046) ou Ubuntu 18.04 LTS (Bionic Beaver)
 
 ## Iniciar Configuração
@@ -52,6 +53,8 @@ $ docker login ghcr.io -u ramiralvesmelo
 ```
 
 ## Importar Collection 
+
+Baixar e importar no Postman as collections abaixo:
 
 - <a href="spring-microservico/spring-microservico.postman_collection.json">spring-microservico.postman_collection.json</a>
 - <a href="spring-boot-kafka/spring-boot-kafka.postman_collection.json">spring-boot-kafka.json</a>
