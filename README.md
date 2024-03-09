@@ -120,6 +120,8 @@ Importar as collections para o Postman.
 
 ### Micro-Serviço
 
+    <img src="img/micros-servicos-01.png" width="800"/>
+
  - http://127.0.0.1:8087/
  - http://127.0.0.1:8088/
  - http://127.0.0.1:3306/
