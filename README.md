@@ -5,8 +5,8 @@ A proposta deste repositório é fornecer com base na framework do Spring Boot e
 - RabbitMQ e Kafka
     Sistemas de comunicação assíncrona entre sistemas distribuidos.
 
-- Arquitetura de Microserviços com JWT (JSON Web Tokens) e Bcrypt
-    Uso de APIs que se integram com o uso de JWT.
+- Arquitetura de Microserviços + JWT + Bcrypt
+    Uso de APIs que se integram com o uso de com JWT (JSON Web Tokens) e Bcrypt.
 
 - Spring Security + LDAP
     Framework de autenticação e autorização para aplicativos Java via LDAP ( Apache OpenLdap ).
