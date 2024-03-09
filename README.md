@@ -142,7 +142,7 @@ $ docker compose -f ./openldap/docker-compose.yml up
 
 ## Limpar Ambiente
 
-Caso queira você pode remover as imagens e credencial da máquina executando os comandos.
+Caso queira você pode remover as imagens e a credencial da máquina executando os comandos abaixo.
 
 > [!CAUTION]
 > Os comando irão remover **TODAS** as credências do GitHub e imagens existentes na sua máquina.
