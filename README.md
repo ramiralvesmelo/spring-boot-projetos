@@ -119,7 +119,7 @@ Importar as collections para o Postman.
 
     - Usuário / Senha: guest
 
-    ![](./img/login-ldap-01.png)
+        ![](./img/login-ldap-01.png)
 
 - Apache Directory Studio
 
