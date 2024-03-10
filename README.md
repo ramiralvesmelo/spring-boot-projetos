@@ -135,9 +135,11 @@ Importar as collections para o Postman.
 ### RabbitMQ 
 
  - <a href="spring-boot-rabbitmq/spring-boot-rabbitmq.postman_collection.json">spring-boot-rabbitmq.json</a>
- - http://127.0.0.1:15672/	(guest/guest)
-    
-    ![](./img/rabbitmq-01.png)
+ - http://127.0.0.1:15672/
+
+    - Usuário / Senha: guest
+
+        ![](./img/rabbitmq-01.png)
 
  
 
