@@ -77,7 +77,7 @@ Importar as collections para o Postman.
 > Para evitar conflitos de porta, a seguir está uma lista completa das portas utilizadas.
 
 
-### Spring Security LDAP / Bcrypt (Mysql)
+### Spring Security + LDAP
 
 | Aplicação     | Porta         | Descrição                 |
 | :------------ |:-------------:| :----------------------   |
@@ -111,13 +111,15 @@ Importar as collections para o Postman.
 | MySQL             | 3306          | Banco de dados Relacional.        | 
 
 
-## Acesso Endpoints
+## Enpoints
 
-### Sprin Security + Thymeleaf + OpenLDAP
+### Spring Security + LDAP 
 
-- http://127.0.0.1:8081/ (guest/guest)
+- http://127.0.0.1:8081/ 
 
-    <img src="img/spring-boot-thymeleaf-01.png" width="1000">
+    - Usuário / Senha: guest
+
+    <img src="img/login-ldap-01.png" width="1000">
 
 - Apache Directory Studio
 
@@ -140,7 +142,7 @@ Importar as collections para o Postman.
 
  - <a href="spring-boot-rabbitmq/spring-boot-rabbitmq.postman_collection.json">spring-boot-rabbitmq.json</a>
 
-### Segurança Micro-Serviços
+### Segurança Micro-Serviços + Bcrypt (Mysql)
 
  - http://127.0.0.1:8087/
  - http://127.0.0.1:8088/
