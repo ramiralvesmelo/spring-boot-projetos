@@ -146,11 +146,9 @@ Importar as collections para o Postman.
 
  - http://127.0.0.1:8087/ (api.auth)
  - http://127.0.0.1:8088/ (api.usuario)
+ - <a href="spring-microservico/spring-microservico.postman_collection.json">spring-microservico.json</a>
 
     ![](./img/micros-servicos-01.png)
-
- - http://127.0.0.1:3306/
- - <a href="spring-microservico/spring-microservico.postman_collection.json">spring-microservico.json</a>
 
 ## Iniciar Docker-Compose
 
