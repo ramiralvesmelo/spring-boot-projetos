@@ -117,13 +117,13 @@ Importar as collections para o Postman.
 
 - http://127.0.0.1:8081/     
 
-    - Usuário / Senha: guest<br>
+    - Usuário / Senha: guest<br><br>
 
     <img src="./img/login-ldap-01.png" width="400">
 
-    - Apache Directory Studio<br>
+    - Apache Directory Studio<br><br>
 
-    <img src="./img/login-ldap-02.png" width="450">
+    <img src="./img/login-ldap-02.png" width="500">
     
 ### Apache Kafka
 
