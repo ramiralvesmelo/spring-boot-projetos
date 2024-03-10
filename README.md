@@ -20,7 +20,7 @@
 
     Sistemas de comunicação assíncrona entre sistemas distribuidos, utilizando tópicos (topics) e divididos em partições (partitions) .
 
-    ![](./microservico/arquitetura.drawio.svg)
+    ![](./kafka/arquitetura.drawio.svg)
 
 4. **Spring Security LDAP**
 
