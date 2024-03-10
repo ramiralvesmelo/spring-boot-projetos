@@ -3,35 +3,37 @@
 > [!NOTE]
 > A proposta deste repositório é fornecer com base na framework do Spring Boot exemplos práticos:
 
-1. **Mensageria com Rabbit MQ**
+1. **Arquitetura Micro-Serviços**
+
+    Arquitetura em micro-serviços com a integração entre APIs com o uso de JWT (JSON Web Tokens).
+
+    ![](./microservico/arquitetura.drawio.svg)
+
+
+2. **Mensageria com Rabbit MQ**
 
     Sistemas de comunicação assíncrona entre sistemas distribuidos utilizando o protocole AMQP.
 
     ![](./rabbitmq/arquitetura.drawio.svg)
 
-2. **Mensageria com Kafka**
+3. **Mensageria com Kafka**
 
     Sistemas de comunicação assíncrona entre sistemas distribuidos, utilizando tópicos (topics) e divididos em partições (partitions) .
 
-    ![](./kafka/arquitetura.drawio.svg)
+    ![](./microservico/arquitetura.drawio.svg)
 
-3. **Spring Security LDAP**
+4. **Spring Security LDAP**
 
     Framework de autenticação e autorização via LDAP ( Apache OpenLdap ) e Bcrypt (Mysql).
 
-   ![](./img/rabbit-mq-arquitetura-01.png)
+   ![](./microservico/arquitetura.drawio.svg)
 
-4. **Visualização**
+5. **Visualização**
 
     Engine Thymeleaf para desenvolvimento web baseado em XML, XHTML e HTML5..
 
     ![](./img/rabbit-mq-arquitetura-01.png)
 
-5. **Arquitetura Micro-Serviços**
-
-    Arquitetura em micro-serviços com a integração entre APIs com o uso de JWT (JSON Web Tokens).
-
-    ![](./img/rabbit-mq-arquitetura-01.png)
 
 > [!IMPORTANT]
 > Necessário ter instalado na máquina as ferramentas.
