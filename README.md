@@ -71,18 +71,13 @@ Importar as collections para o Postman.
 - <a href="spring-microservico/spring-microservico.postman_collection.json">spring-microservico.json</a>
 - <a href="spring-boot-rabbitmq/spring-boot-rabbitmq.postman_collection.json">spring-boot-rabbitmq.json</a>
 
-## Acessos
+## Acesso as Portas
 
 > [!CAUTION]
 > Para evitar conflitos de porta, a seguir está uma lista completa das portas utilizadas.
 
+
 ### Sprin Security + Thymeleaf + OpenLDAP
-
-- http://127.0.0.1:8081/ (guest/guest)
-
-    <img src="img/spring-boot-thymeleaf-01.png" width="1000">
-
-- Apache Directory Studio
 
 | Aplicação     | Porta         | Descrição                 |
 | :------------ |:-------------:| :----------------------   |
@@ -92,30 +87,16 @@ Importar as collections para o Postman.
 
 ### Apache Kafka
 
-- http://127.0.0.1:8084/
-
-    <img src="img/kafka-01.png" width="1000">
-
-- http://127.0.0.1:8085/
-
-- <a href="spring-boot-kafka/spring-boot-kafka.postman_collection.json">spring-boot-kafka.json</a>
-
 | Aplicação         | Porta         | Descrição                                                 |
 | :-----------------|:-------------:| :----------------------                                   |
-| Apache ZooKeeper  | 22181         | Centralizador de chamados.                                |
+| Apache ZooKeeper  | 22181         | Centralizador de chamados em um ambiente de cluster.      |
 | Apache Kafka-MB   | 9092, 9099    | Servidor Message Broker.                                  |
 | kafka-ui          | 8084          | Interface de monitoração.                                 |
 | kafka-producer    | 8085          | Aplicação responsável pelo envio da mensagem.             |
 | kafka-cosumer     | 8086          | Aplicação responsável pelo recebimento da mensagem.       |
 
-### Pivotal RabbitMQ 
 
- - http://127.0.0.1:8083/
- - http://127.0.0.1:15672/	(guest/guest)
-    
-    <img src="/img/rabbitmq-01.png">
-
- - <a href="spring-boot-rabbitmq/spring-boot-rabbitmq.postman_collection.json">spring-boot-rabbitmq.json</a>
+### RabbitMQ 
 
 | Aplicação         | Porta         | Descrição                                                         |
 | :-----------------|:-------------:| :----------------------                                           |
@@ -125,13 +106,6 @@ Importar as collections para o Postman.
 
 ### Micro-Serviço
 
-<img src="img/micros-servicos-01.png" width="800"/>
-
- - http://127.0.0.1:8087/
- - http://127.0.0.1:8088/
- - http://127.0.0.1:3306/
- - <a href="spring-microservico/spring-microservico.postman_collection.json">spring-microservico.json</a>
- 
 | Aplicação         | Porta         | Descrição                         |
 | :-----------------|:-------------:| :----------------------           |
 | api.auth          | 8087          | API de autenticação               |
