@@ -129,25 +129,23 @@ Importar as collections para o Postman.
 
 - http://127.0.0.1:8084/
 
+    - <a href="spring-boot-kafka/spring-boot-kafka.postman_collection.json">spring-boot-kafka.json</a>
+
     ![](./img/kafka-01.png)
-
-- http://127.0.0.1:8085/
-
-- <a href="spring-boot-kafka/spring-boot-kafka.postman_collection.json">spring-boot-kafka.json</a>
 
 ### RabbitMQ 
 
- - http://127.0.0.1:8083/
+ - <a href="spring-boot-rabbitmq/spring-boot-rabbitmq.postman_collection.json">spring-boot-rabbitmq.json</a>
  - http://127.0.0.1:15672/	(guest/guest)
     
     ![](./img/rabbitmq-01.png)
 
- - <a href="spring-boot-rabbitmq/spring-boot-rabbitmq.postman_collection.json">spring-boot-rabbitmq.json</a>
+ 
 
 ### Segurança Micro-Serviços + Bcrypt (Mysql)
 
- - http://127.0.0.1:8087/
- - http://127.0.0.1:8088/
+ - http://127.0.0.1:8087/ (api.auth)
+ - http://127.0.0.1:8088/ (api.usuario)
 
     ![](./img/micros-servicos-01.png)
 
