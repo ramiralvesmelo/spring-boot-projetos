@@ -7,7 +7,7 @@
 
     Arquitetura em micro-serviços com a integração entre APIs com o uso de JWT (JSON Web Tokens).
     
-    <img src="./microservico/arquitetura.drawio.svg" width="800">
+    <img src="./microservico/arquitetura.drawio.svg" width="900">
 
 
 2. **Mensageria com Rabbit MQ**
