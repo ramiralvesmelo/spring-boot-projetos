@@ -3,28 +3,28 @@
 > [!NOTE]
 > A proposta deste repositório é fornecer com base na framework do Spring Boot exemplos práticos:
 
-1. **Arquitetura Micro-Serviços**
+1. **Segurança Micro-Serviços**
 
-    Arquitetura em micro-serviços com a integração entre APIs com o uso de JWT (JSON Web Tokens).
+    Exemplo que compõem a etapa de autenticação/autorização à uma determinada API. O processo abaixo visa demostrar o procedimento de consumo do serviço para criação de um novo usuário na API usuário.
     
     <img src="./microservico/arquitetura.drawio.svg" width="900">
 
 
 2. **Mensageria com Rabbit MQ**
 
-    Sistemas de comunicação assíncrona entre sistemas distribuidos utilizando o protocole AMQP.
+    Utilizando o modelo tradicional de mensageria, no qual as mensagens são enviadas para filas e roteadas pelo Exchange(topic, fane out, direct) para os consumidores. Ele é adequado para cenários onde desejamos a garantia da entrega da mensagem.
 
     ![](./rabbitmq/arquitetura.drawio.svg)
 
 3. **Mensageria com Kafka**
 
-    Sistemas de comunicação assíncrona entre sistemas distribuidos, utilizando tópicos (topics) e divididos em partições (partitions) .
-
+    Sistemas de comunicação assíncrona Pub/Sub para processamento de fluxo de eventos em tempo real e ingestão de dados em grande escala, utilizando partições (partitions) ele pode ser facilmente escalável no sentido horizontal.
+       
     ![](./kafka/arquitetura.drawio.svg) 
 
 4. **Spring Security LDAP / Bcrypt (Mysql)**
-
-    Framework de autenticação e autorização via LDAP ( Apache OpenLdap ) e Bcrypt (Mysql).
+    
+    Após usuário submeter suas credênciais através do formulário de login, o Spring Security inicia o processo de autenticação validando os dados informados pelo usuário no OpenLdap ou MySQL (utilizando Bcrypt).    
 
    <img src="./openldap//arquitetura.drawio.svg" width="400"/>
 
