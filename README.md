@@ -3,7 +3,7 @@
 > [!NOTE]
 > A proposta deste repositório é fornecer com base na framework do Spring Boot exemplos práticos:
 
-1. **Segurança Micro-Serviços**
+1. **Micro-Serviços - Segurança**
 
     Projeto que compõem a etapa de autenticação/autorização na arquitetura de micro-serviços. O processo abaixo visa ilustrar o procedimento para consumir o serviço de criação do usuário pela API Usuário.
     
