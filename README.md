@@ -22,17 +22,12 @@
 
     ![](./kafka/arquitetura.drawio.svg) 
 
-4. **Spring Security LDAP**
+4. **Spring Security LDAP / Bcrypt (Mysql)**
 
     Framework de autenticação e autorização via LDAP ( Apache OpenLdap ) e Bcrypt (Mysql).
 
    ![](./microservico/arquitetura.drawio.svg)
 
-5. **Visualização**
-
-    Engine Thymeleaf para desenvolvimento web baseado em XML, XHTML e HTML5..
-
-    ![](./img/rabbit-mq-arquitetura-01.png)
 
 
 > [!IMPORTANT]
