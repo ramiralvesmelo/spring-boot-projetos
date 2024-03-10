@@ -7,7 +7,7 @@
 
     Sistemas de comunicação assíncrona entre sistemas distribuidos utilizando o protocole AMQP.
 
-    ![](./kafka/kafka.drawio.svg)
+    ![](./rabbitmq/arquitetura.drawio.svg)
 
 2. **Mensageria com Kafka**
 
