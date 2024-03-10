@@ -119,7 +119,7 @@ Importar as collections para o Postman.
 
     - Usuário / Senha: guest
 
-    <img src="img/login-ldap-01.png" width="1000">
+    ![](./img/login-ldap-01.png)
 
 - Apache Directory Studio
 
@@ -127,7 +127,7 @@ Importar as collections para o Postman.
 
 - http://127.0.0.1:8084/
 
-    <img src="img/kafka-01.png" width="1000">
+    ![](./img/kafka-01.png)
 
 - http://127.0.0.1:8085/
 
@@ -138,7 +138,7 @@ Importar as collections para o Postman.
  - http://127.0.0.1:8083/
  - http://127.0.0.1:15672/	(guest/guest)
     
-    <img src="/img/rabbitmq-01.png">
+    ![](./img/rabbitmq-01.png)
 
  - <a href="spring-boot-rabbitmq/spring-boot-rabbitmq.postman_collection.json">spring-boot-rabbitmq.json</a>
 
@@ -147,7 +147,7 @@ Importar as collections para o Postman.
  - http://127.0.0.1:8087/
  - http://127.0.0.1:8088/
 
-<img src="img/micros-servicos-01.png" width="800"/>
+    ![](./img/micros-servicos-01.png)
 
  - http://127.0.0.1:3306/
  - <a href="spring-microservico/spring-microservico.postman_collection.json">spring-microservico.json</a>
