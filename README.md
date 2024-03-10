@@ -77,13 +77,12 @@ Importar as collections para o Postman.
 > Para evitar conflitos de porta, a seguir está uma lista completa das portas utilizadas.
 
 
-### Sprin Security + Thymeleaf + OpenLDAP
+### Spring Security LDAP / Bcrypt (Mysql)
 
 | Aplicação     | Porta         | Descrição                 |
 | :------------ |:-------------:| :----------------------   |
 | App-Web       | 8081          | Aplicação de front-end.   |
 | Open LDAP     | 10389, 10636  | Servidor LDAP.            |
-
 
 ### Apache Kafka
 
@@ -95,7 +94,6 @@ Importar as collections para o Postman.
 | kafka-producer    | 8085          | Aplicação responsável pelo envio da mensagem.             |
 | kafka-cosumer     | 8086          | Aplicação responsável pelo recebimento da mensagem.       |
 
-
 ### RabbitMQ 
 
 | Aplicação         | Porta         | Descrição                                                         |
@@ -104,13 +102,51 @@ Importar as collections para o Postman.
 | rabbitmq-consumer | 8082          | Aplicação (publish) responsável pelo envio da mensagem.           |
 | rabbitmq-producer | 8083          | Aplicação (subscribe) responsável pelo recebimento da mensagem.   |
 
-### Micro-Serviço
+### Segurança Micro-Serviços
 
 | Aplicação         | Porta         | Descrição                         |
 | :-----------------|:-------------:| :----------------------           |
 | api.auth          | 8087          | API de autenticação               |
 | api.usuar         | 8088          | API de acesso a entidade Usuário  |
 | MySQL             | 3306          | Banco de dados Relacional.        | 
+
+
+## Acesso Endpoints
+
+### Sprin Security + Thymeleaf + OpenLDAP
+
+- http://127.0.0.1:8081/ (guest/guest)
+
+    <img src="img/spring-boot-thymeleaf-01.png" width="1000">
+
+- Apache Directory Studio
+
+### Apache Kafka
+
+- http://127.0.0.1:8084/
+
+    <img src="img/kafka-01.png" width="1000">
+
+- http://127.0.0.1:8085/
+
+- <a href="spring-boot-kafka/spring-boot-kafka.postman_collection.json">spring-boot-kafka.json</a>
+
+### RabbitMQ 
+
+ - http://127.0.0.1:8083/
+ - http://127.0.0.1:15672/	(guest/guest)
+    
+    <img src="/img/rabbitmq-01.png">
+
+ - <a href="spring-boot-rabbitmq/spring-boot-rabbitmq.postman_collection.json">spring-boot-rabbitmq.json</a>
+
+
+<img src="img/micros-servicos-01.png" width="800"/>
+
+ - http://127.0.0.1:8087/
+ - http://127.0.0.1:8088/
+ - http://127.0.0.1:3306/
+ - <a href="spring-microservico/spring-microservico.postman_collection.json">spring-microservico.json</a>
 
 ## Iniciar Docker-Compose
 
