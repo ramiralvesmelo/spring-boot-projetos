@@ -5,7 +5,7 @@
 
 1. **Segurança Micro-Serviços**
 
-    Exemplo que compõem a etapa de autenticação/autorização à uma determinada API. O processo abaixo visa demostrar o procedimento de consumo do serviço para criação de um novo usuário na API usuário.
+    Projeto que compõem a etapa de autenticação/autorização na arquitetura de micro-serviços. O processo abaixo visa ilustrar o procedimento para consumir o serviço de criação do usuário pela API Usuário.
     
     <img src="./microservico/arquitetura.drawio.svg" width="900">
 
