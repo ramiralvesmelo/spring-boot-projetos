@@ -127,9 +127,8 @@ Importar as collections para o Postman.
     
 ### Apache Kafka
 
+- <a href="spring-boot-kafka/spring-boot-kafka.postman_collection.json">spring-boot-kafka.json</a>
 - http://127.0.0.1:8084/
-
-    - <a href="spring-boot-kafka/spring-boot-kafka.postman_collection.json">spring-boot-kafka.json</a>
 
     ![](./img/kafka-01.png)
 
@@ -144,9 +143,9 @@ Importar as collections para o Postman.
 
 ### Segurança Micro-Serviços + Bcrypt (Mysql)
 
+ - <a href="spring-microservico/spring-microservico.postman_collection.json">spring-microservico.json</a>
  - http://127.0.0.1:8087/ (api.auth)
  - http://127.0.0.1:8088/ (api.usuario)
- - <a href="spring-microservico/spring-microservico.postman_collection.json">spring-microservico.json</a>
 
     ![](./img/micros-servicos-01.png)
 
