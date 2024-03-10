@@ -119,11 +119,11 @@ Importar as collections para o Postman.
 
     - Usuário / Senha: guest<br><br>
 
-    <img src="./img/login-ldap-01.png" width="400">
+        <img src="./img/login-ldap-01.png" width="400">
 
     - Apache Directory Studio<br><br>
 
-    <img src="./img/login-ldap-02.png" width="500">
+        <img src="./img/login-ldap-02.png" width="500">
     
 ### Apache Kafka
 
