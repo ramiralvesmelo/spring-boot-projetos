@@ -26,9 +26,7 @@
 
     Framework de autenticação e autorização via LDAP ( Apache OpenLdap ) e Bcrypt (Mysql).
 
-   ![](./openldap//arquitetura.drawio.svg)
-
-
+   <img src="./openldap//arquitetura.drawio.svg" width="400"/>
 
 > [!IMPORTANT]
 > Necessário ter instalado na máquina as ferramentas.
