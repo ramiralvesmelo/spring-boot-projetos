@@ -13,7 +13,7 @@
 
     Sistemas de comunicação assíncrona entre sistemas distribuidos, utilizando tópicos (topics) e divididos em partições (partitions) .
 
-    ![](./img/rabbit-mq-arquitetura-01.png)
+    ![](./kafka/arquitetura.drawio.svg)
 
 3. **Spring Security LDAP**
 
