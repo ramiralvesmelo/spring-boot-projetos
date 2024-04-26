@@ -1,5 +1,3 @@
-![](https://komarev.com/ghpvc/?username=ramiralvesmelo&color=blue)
-
 # Spring Boot
 
 > [!NOTE]
