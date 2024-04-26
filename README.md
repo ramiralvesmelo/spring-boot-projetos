@@ -1,4 +1,4 @@
-![Profile views](https://github.com/ramiralvesmelo/ramiralvesmelo)
+![](https://komarev.com/ghpvc/?username=ramiralvesmelo&color=dc143c)
 
 # Spring Boot
 
