@@ -1,4 +1,4 @@
-![](https://komarev.com/ghpvc/?username=ramiralvesmelo&color=dc143c)
+![](https://komarev.com/ghpvc/?username=ramiralvesmelo&color=blue)
 
 # Spring Boot
 
