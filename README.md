@@ -2,6 +2,11 @@
 
 # Spring Boot
 
+
+![alt text](spring-boot-projetos.png?raw=true)
+
+https://www.youtube.com/watch?v=hQ2JpAMadEk
+
 > [!NOTE]
 > A proposta deste repositório é fornecer com base na framework do Spring Boot exemplos práticos:
 
