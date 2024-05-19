@@ -3,7 +3,7 @@
 # Spring Boot
 
 <a href="https://www.youtube.com/watch?v=hQ2JpAMadEk">
-    <img src="spring-boot-projetos.png?raw=true" width="600">
+    <img src="spring-boot-projetos.png?raw=true" width="1000">
 </a>
 
 
