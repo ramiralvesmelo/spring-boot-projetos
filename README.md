@@ -5,7 +5,7 @@
 <a href="https://www.youtube.com/watch?v=hQ2JpAMadEk">
     <img src="spring-boot-projetos.png" width="1000">
 </a>
-<br>
+<br><br>
 
 > [!NOTE]
 > A proposta deste repositório é fornecer com base na framework do Spring Boot exemplos práticos:
